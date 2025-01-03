@@ -248,3 +248,125 @@
 //  }
 // console.log(sum);
 
+
+// 1. Bir dizideki pozitif sayıların karesini alıp, sonucu 50'den büyük olanları döndüren bir fonksiyon yazın
+// const arr= [10, -11, -23, 40, 30, 70, 90];
+
+// const big = arr.filter((x) => x > 0).map((x)=> x**2).filter((x)=>x>50)
+// console.log(big);
+
+
+const arr= [70, -21, -3, 40, 55, 80, 10];
+const arrone = ["Selma", "Musa", "Selami", "Nur", "Ayse"]
+
+
+
+// 2. Bir dizideki tüm sayıların çarpımını hesaplayan bir fonksiyon yazın.
+
+
+// const carpim = arr.reduce((bric, item)=> bric*item,1)
+// console.log(carpim);
+
+// 3. Bir dizideki ilk negatif sayının indeksini döndüren bir fonksiyon yazın.
+
+// const negatif = arr.find((x)=> x<0)
+// console.log(negatif);
+
+// 4. Bir dizideki kelimelerin hepsini büyük harfe çeviren bir fonksiyon yazın.
+
+// const upper = arrone.map((x)=>x.toUpperCase())
+// console.log(upper);
+
+// 5. Bir dizide ilk 50'den büyük sayıyı bulan bir fonksiyon yazın.
+
+// const buyuk = arr.filter((x)=> x > 50 )
+// console.log(buyuk);
+
+// 6. Bir dizideki sayıların karesini alıp, sonucu 100'den küçük olanları döndüren bir fonksiyon yazın
+// const kare = arr.map((x) => x**2).filter((x) => x>100)
+// console.log(kare);
+
+// 7. Bir dizide tüm elemanların çift sayı olup olmadığını kontrol eden bir fonksiyon yazın
+
+// const sayilar = arr.every((x) => x%2===0)
+// console.log(sayilar);
+
+// 8. Bir diziyi tersten oluşturmak için bir fonksiyon yazın
+
+// arr.reverse()
+// console.log(arr);
+
+// 9. Bir dizide en az bir elemanın 10'un katı olup olmadığını kontrol eden bir fonksiyon yazın.
+
+// const kati = arr.find((x)=> x%10===0)
+// console.log(kati);
+
+// 10. Bir dizideki tüm kelimeleri ters çeviren bir fonksiyon yazın
+
+// arrone.reverse()
+// console.log(arrone);
+
+// 11. Bir diziden sadece tek sayıları döndüren bir fonksiyon yazın.
+
+// const tek = arr.filter((x)=> x%2!==0)
+// console.log(tek);
+
+// 12. Bir dizideki her elemana indeksini ekleyip yeni bir dizi döndüren bir fonksiyon yazın
+
+// const index = arr.map((item,i )=> console.log(`item=${item}`,`index=${i}` ))
+
+// 13. Bir dizideki en büyük sayıyı bulan bir fonksiyon yazın.
+
+// const buyuk = (arr) =>{
+
+//         return Math.max(...arr)
+// }
+// console.log(buyuk(arr));
+
+//14. Bir dizideki her elemanı 3 artıran bir fonksiyon yazın (diziyi yerinde değiştirerek).
+
+// const arti = arr.map((x)=> x+3)
+// console.log(arti);
+
+// 15. Bir dizide ilk defa 10  olan elemanın indeksini döndüren bir fonksiyon yazın
+
+// const ilk = (arr)=>{
+//    return arr.indexOf(10)
+// }
+// console.log(ilk(arr));
+
+// 16. Bir dizide tüm sayıların pozitif olup olmadığını kontrol eden bir fonksiyon yazın
+
+// const sayilar = arr.every((x) => x>0)
+// console.log(sayilar);
+
+// 17. Bir dizideki 4  karakterden uzun kelimeleri döndüren bir fonksiyon yazın.
+
+// const arrtwo = arrone.filter((item)=> item.length>4)
+// console.log(arrtwo) 
+
+// 18. Bir dizideki alt dizileri düz bir liste haline getiren bir fonksiyon yazın.
+
+// const arrFive = [3, [2, 1], [5]]
+// const birlestir = arrFive.flat()
+// console.log(birlestir)
+
+
+// 19. Bir dizideki kelimeleri harflere ayırıp düz bir liste haline getiren bir fonksiyon yazın
+
+// function kelimeleriHarflerHalineGetir(dizi) {
+//   return dizi.map((kelime) => kelime.split("")).flat(); // İç içe dizileri düzleştirir
+// }
+
+// const kelimeler = ["merhaba", "dünya", "javascript"];
+// const harfler = kelimeleriHarflerHalineGetir(kelimeler);
+
+// console.log(harfler);
+
+
+// 20. Bir dizide çift sayıların toplamını hesaplayan bir fonksiyon yazın.
+
+// const arrthree = arr.filter((item, bric)=> item%2===0).reduce((item, bric)=> item+bric)
+// console.log(arrthree)
+
+
